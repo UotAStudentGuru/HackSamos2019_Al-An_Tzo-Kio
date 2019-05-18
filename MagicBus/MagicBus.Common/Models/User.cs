@@ -8,16 +8,14 @@ namespace MagicBus.Common.Models
     {
         private string _name;
         private string _surname;
+        private string _username;
         private string _email;
+        private string _password;
 
         public string Name
         {
             get => _name;
-            set
-            {
-                _name = value; 
-
-            }
+            set => _name = value;
         }
 
         public string Surname
@@ -26,12 +24,22 @@ namespace MagicBus.Common.Models
             set => _surname = value;
         }
 
+        public string Username
+        {
+            get => _username;
+            set => _username = value;
+        }
+
         public string Email
         {
             get => _email;
             set => _email = value;
         }
 
-       
+        public string Password
+        {
+            get => _password;
+            set => _password = value;
+        }
     }
 }

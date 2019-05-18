@@ -113,6 +113,4 @@ C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\
 C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
-C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus\bin\Debug\netstandard2.0\MagicBus.dll
-C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\bin\Debug\MagicBus.dll.mdb
 C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\linksrc\MagicBus.dll.mdb
