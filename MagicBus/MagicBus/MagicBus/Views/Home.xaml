@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:MagicBus.ViewModels;assembly=MagicBus"
+             xmlns:abstractions="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+             x:Class="MagicBus.Views.Home" Title="Home">
+  <!--Pages can be added as references or inline-->
+    <TabbedPage.ToolbarItems>
+        <ToolbarItem Icon="ic_add.png" Order="Primary" x:Name="newroute" Clicked="youroute_Clicked"/>
+        <ToolbarItem Name="MenuItem1" Order="Secondary" Text="Settings" Priority="0"/>
+        <ToolbarItem Name="MenuItem1" Order="Secondary" Text="Quit" Priority="1" Clicked="Quit_Clicked"/>
+    </TabbedPage.ToolbarItems>
+
+    <ContentPage Title="Existing Routes">
+        <ContentPage.BindingContext>
+            <viewModels:ExistingRoutesViewModel/>
+        </ContentPage.BindingContext>
+        <ListView x:Name="RouteListView" ItemsSource="{Binding Routes}" HasUnevenRows="True" ItemTapped="RouteListView_OnItemTapped">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal" Margin="5">
+                            <abstractions:CircleImage Aspect="AspectFill" Source="download.jpg" HeightRequest="50" WidthRequest="50"/>
+                            <StackLayout>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="Προορισμός: " Font="15,Bold" VerticalOptions="Center"/>
+                                    <Label Text="{Binding Destination}" FontSize="15" VerticalOptions="Center"/>
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="Αναχώρηση: " Font="15,Bold" VerticalOptions="Center"/>
+                                    <Label Text="{Binding Departure.Date}" Font="15,Bold" VerticalOptions="Center"/>
+                                </StackLayout>
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage>
+
+    <ContentPage Title="Saved Route">
+        <ContentPage.BindingContext>
+            <viewModels:SavedRoutesViewModel/>
+        </ContentPage.BindingContext>
+        <ListView x:Name="SavedRoutesListView" ItemsSource="{Binding Routes}" HasUnevenRows="True" ItemTapped="SavedRoutesListView_OnItemTapped">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal" Margin="5">
+                            <abstractions:CircleImage Aspect="AspectFill" Source="download.jpg" HeightRequest="50" WidthRequest="50"/>
+                            <StackLayout>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="Προορισμός: " Font="15,Bold" VerticalOptions="Center"/>
+                                    <Label Text="{Binding Destination}" FontSize="15" VerticalOptions="Center"/>
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="Αναχώρηση: " Font="15,Bold" VerticalOptions="Center"/>
+                                    <Label Text="{Binding Departure.Date}" Font="15,Bold" VerticalOptions="Center"/>
+                                </StackLayout>
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage>
+</TabbedPage>

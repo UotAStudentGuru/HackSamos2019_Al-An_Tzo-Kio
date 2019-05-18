@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MagicBus.Views.LoginPage" BackgroundImage="background.jpg">
+    <ContentPage.Content>
+        <Grid BackgroundColor="#8f000000">
+        <StackLayout VerticalOptions="Center" >
+            <Label Text="Κάνε την Σύνδεση!" TextColor="White" FontSize="22" VerticalOptions="Center" Margin="0,0,0,20" HorizontalOptions="Center"/>
+                <StackLayout VerticalOptions="Center" HorizontalOptions="FillAndExpand" >
+                    <Entry Placeholder="User Name or Email" x:Name="UserName" PlaceholderColor="White" HeightRequest="40" TextColor="White"/>
+                    <Entry Placeholder="Password" IsPassword="True" PlaceholderColor="White" HeightRequest="40" TextColor="White"/>
+                </StackLayout>
+            <Button FontAttributes="Bold" BackgroundColor="Green" Margin="5" Text="Log in" HorizontalOptions="Center" CornerRadius="5" TextColor="White" Clicked="Button_Clicked"/>
+        </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

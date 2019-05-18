@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MagicBus.Views;
+using System;
+using MagicBus.Common.Services;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -7,16 +9,17 @@ namespace MagicBus
 {
     public partial class App : Application
     {
+        public DataService DataService { get; set; }
         public App()
         {
             InitializeComponent();
-
+           
             MainPage = new NavigationPage(new Start());
         }
 
         protected override void OnStart()
         {
-            // Handle when your app starts
+            DataService = new DataService();
         }
 
         protected override void OnSleep()

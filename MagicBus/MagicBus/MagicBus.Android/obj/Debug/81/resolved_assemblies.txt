@@ -1,5 +1,6 @@
 C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\android\assets\MagicBus.Android.dll
 C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\android\assets\FormsViewGroup.dll
+C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\android\assets\ImageCircle.Forms.Plugin.dll
 C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\android\assets\Java.Interop.dll
 C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\android\assets\MagicBus.dll
 C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\android\assets\Mono.Android.dll
@@ -42,4 +43,5 @@ C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\
 C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\android\assets\System.Runtime.Serialization.dll
 C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\android\assets\System.ServiceModel.Internals.dll
 C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\android\assets\System.Web.Services.dll
+C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\android\assets\MagicBus.Common.dll
 C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\android\assets\Mono.Security.dll

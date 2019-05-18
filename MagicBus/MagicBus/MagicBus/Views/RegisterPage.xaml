@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MagicBus.Views.RegisterPage" BackgroundImage="background.png">
+    <ContentPage.Content>
+        <Grid BackgroundColor="#8f000000">
+            <StackLayout VerticalOptions="Center">
+                <Label Text="Κάνε Εγγραφή!" TextColor="White" FontSize="22" VerticalOptions="Center" Margin="0,0,0,20" HorizontalOptions="Center"/>
+                <StackLayout VerticalOptions="Center" HorizontalOptions="FillAndExpand">
+                    <Entry Placeholder="Email" x:Name="Mail" PlaceholderColor="White" HeightRequest="40" TextColor="White"/>
+                    <Entry Placeholder="User Name" x:Name="UserName" PlaceholderColor="White" HeightRequest="40" TextColor="White"/>
+                    <Entry Placeholder="Password" x:Name="Pass" IsPassword="True" PlaceholderColor="White" HeightRequest="40" TextColor="White"/>
+                    <Entry Placeholder="Re-Enter-Password" x:Name="RePass" IsPassword="True" PlaceholderColor="White" HeightRequest="40" TextColor="White"/>
+                    <Button FontAttributes="Bold" BackgroundColor="Green" Margin="5" Text="Register" HorizontalOptions="Center" CornerRadius="5" TextColor="White" Clicked="Button_Clicked"/>
+                </StackLayout>
+            </StackLayout>
+        </Grid>
+
+    </ContentPage.Content>
+</ContentPage>

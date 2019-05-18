@@ -3,7 +3,9 @@ C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\bin\
 C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\bin\Debug\com.companyname.MagicBus.apk
 C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\bin\Debug\com.companyname.MagicBus-Signed.apk
 C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\bin\Debug\MagicBus.dll
+C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\bin\Debug\MagicBus.Common.dll
 C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\bin\Debug\MagicBus.pdb
+C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\bin\Debug\MagicBus.Common.pdb
 C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
 C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\MagicBus.Android.nuget.stamp
 C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\MagicBus.Android.csprojAssemblyReference.cache
@@ -31,6 +33,12 @@ C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\
 C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\res\mipmap-xxhdpi\launcher_foreground.png
 C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\res\mipmap-xxxhdpi\icon.png
 C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\res\mipmap-xxxhdpi\launcher_foreground.png
+C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\res\drawable\background.jpg
+C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\res\drawable\ic_add.png
+C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\res\drawable-hdpi\ic_add.png
+C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\res\drawable-xhdpi\ic_add.png
+C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\res\drawable-xxhdpi\ic_add.png
+C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\res\drawable-xxxhdpi\ic_add.png
 C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\R.cs.flag
 C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\R.txt
 C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\uploadflags.txt
@@ -55,6 +63,8 @@ C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\bin\
 C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\bin\Debug\System.ServiceModel.Internals.pdb
 C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\bin\Debug\System.Web.Services.pdb
 C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\bin\Debug\Mono.Security.pdb
+C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\bin\Debug\MagicBus.dll.mdb
+C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\res\drawable\download.jpg
 C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\linksrc\MagicBus.Android.pdb
 C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\linksrc\FormsViewGroup.pdb
 C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\linksrc\Mono.Android.pdb
@@ -76,12 +86,13 @@ C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\
 C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\linksrc\System.Runtime.Serialization.pdb
 C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\linksrc\System.ServiceModel.Internals.pdb
 C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\linksrc\System.Web.Services.pdb
+C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\linksrc\MagicBus.Common.pdb
 C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\linksrc\Mono.Security.pdb
-C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\bin\Debug\MagicBus.dll.mdb
 C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\linksrc\MagicBus.dll.mdb
 C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\android\assets\MagicBus.dll.mdb
 C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\android\assets\FormsViewGroup.pdb
 C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\android\assets\MagicBus.Android.pdb
+C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\android\assets\MagicBus.Common.pdb
 C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\android\assets\Mono.Android.pdb
 C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\android\assets\Mono.Security.pdb
 C:\HackSamos\HackSamos2019_Al-An_Tzo-Kio\MagicBus\MagicBus\MagicBus.Android\obj\Debug\81\android\assets\mscorlib.pdb

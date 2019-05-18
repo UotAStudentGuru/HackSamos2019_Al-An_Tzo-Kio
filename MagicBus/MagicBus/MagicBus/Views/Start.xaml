@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MagicBus.Views.Start" BackgroundImage="background.jpg">
+    <ContentPage.Content>
+        <Grid BackgroundColor="#8f000000">
+            <StackLayout VerticalOptions="Center">
+            <Label Text="Καλώς ήρθες στο Magic Bus!" TextColor="White" FontSize="22" VerticalOptions="Center" Margin="0,0,0,20" HorizontalOptions="Center"/>
+                <Button FontAttributes="Bold" BackgroundColor="Green" Margin="5" Text="Ξεκίνα Τώρα!" CornerRadius="5" TextColor="White" Clicked="RegisterClicked"/>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="End" Margin="20">
+                <Label TextColor="White" Text="Έχεις ήδη λογαριασμό;"/>
+                <Label x:Name="LoginLabel" FontAttributes="Bold" TextColor="White" Text="Είσοδος"/>
+            </StackLayout>
+            </StackLayout>
+           
+        </Grid>
+        
+    </ContentPage.Content>
+</ContentPage>
