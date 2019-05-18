@@ -15,6 +15,21 @@ namespace MagicBus
         public Home ()
         {
             InitializeComponent();
+
+            var routes = new List<Route>();
+            var route = new Route { Name="Dromologio E1" };
+            routes.Add(route);
+            route = new Route { Name = "Dromologio E2" };
+            routes.Add(route);
+            route = new Route { Name = "Dromologio E3" };
+            routes.Add(route);
+
+            RouteListView.ItemsSource = routes;
+        }
+
+        private void Quit_Clicked(object sender, EventArgs e)
+        {
+            this.Navigation.PopToRootAsync();
         }
     }
 }

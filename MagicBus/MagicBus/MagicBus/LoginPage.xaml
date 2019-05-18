@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MagicBus.LoginPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center">
+            <Entry Placeholder="User Name or Email" x:Name="UserName"/>
+            <Entry Placeholder="Password" IsPassword="True"/>
+            <Button FontAttributes="Bold" BackgroundColor="LightGray" Text="Log in" HorizontalOptions="Center" Clicked="Button_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

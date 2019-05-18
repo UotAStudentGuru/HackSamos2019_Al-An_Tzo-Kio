@@ -11,7 +11,7 @@ namespace MagicBus
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage());
+            MainPage = new NavigationPage(new Start());
         }
 
         protected override void OnStart()

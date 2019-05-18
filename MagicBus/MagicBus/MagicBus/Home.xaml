@@ -3,6 +3,26 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MagicBus.Home">
   <!--Pages can be added as references or inline-->
-  <ContentPage Title="Tab 1" />
-  <ContentPage Title="Tab 2" />
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="ToolBar"  Order="Primary" />
+        <ToolbarItem Name="MenuItem1" Order="Secondary" Text="Settings" Priority="0"/>
+        <ToolbarItem Name="MenuItem1" Order="Secondary" Text="Quit" Priority="1" Clicked="Quit_Clicked"/>
+    </ContentPage.ToolbarItems>
+
+    <ContentPage Title="Existing Routes" >
+
+        <ListView x:Name="RouteListView">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout >
+                            <Label Text="{Binding Name}" Font="15,Bold" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        
+    </ContentPage>
+    <ContentPage Title="New Route" />
 </TabbedPage>
